@@ -23,15 +23,31 @@ export const Middle = () => {
                 <option>1week ago</option>
             </select>
         </div>
+        <div className="card-section">
+        <div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style={{width:"100%"}} />
+  <div class="container">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+  </div>
+</div>
+        </div>
       </div>
       <div className="right-div">
-        <div className="mid-right">
+        <div className="right-top">
             <h2>Active Members</h2>
             <img src="img_avatar.png" alt="face" className="face-batch"/>
             <img src="img_avatar.png" alt="face" className="face-batch"/>
             <img src="img_avatar.png" alt="face" className="face-batch"/>
             <img src="img_avatar.png" alt="face" className="face-batch"/>
-            <p style={{textAlign:"left"}}>view all</p>
+            <p>view all</p>
+        </div>
+        <div className="right-down">
+            <h2 style={{paddingTop:"30px"}}>Recent Topics</h2>
+            <p><img src="img_avatar.png" alt="face" className="face-batch"/></p>
+            <p><img src="img_avatar.png" alt="face" className="face-batch"/></p>
+            <p><img src="img_avatar.png" alt="face" className="face-batch"/></p>
+            <p><img src="img_avatar.png" alt="face" className="face-batch"/></p>
         </div>
       </div>
     </div>
