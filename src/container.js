@@ -25,21 +25,21 @@ export const Middle = () => {
         </div>
         <div className="card-section">
           <div class="card">
-            <img src="img_avatar2.png" alt="Avatar" style={{ width: "100%",height:"130px" }} />
+            <img src="img_avatar2.png" alt="Avatar" className="card-pic" />
             <div class="container">
               <h4><b>Jane Doe</b></h4>
               <p>Interior Designer</p>
             </div>
           </div>
           <div class="card">
-            <img src="img_avatar2.png" alt="Avatar" style={{ width: "100%",height:"120px" }} />
+            <img src="img_avatar2.png" alt="Avatar" className="card-pic" />
             <div class="container">
               <h4><b>Jane Doe</b></h4>
               <p>Interior Designer</p>
             </div>
           </div>
           <div class="card">
-            <img src="img_avatar2.png" alt="Avatar" style={{ width: "100%",height:"120px" }} />
+            <img src="img_avatar2.png" alt="Avatar" className="card-pic" />
             <div class="container">
               <h4><b>Jane Doe</b></h4>
               <p>Interior Designer</p>
